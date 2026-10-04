@@ -1,0 +1,12 @@
+# Versions were not pinned during the thesis; these are the packages the code imports.
+numpy
+pandas
+scipy
+scikit-learn
+tqdm
+matplotlib
+pillow
+networkx
+torch
+torch_geometric
+joblib   # optional, used for parallel graph building

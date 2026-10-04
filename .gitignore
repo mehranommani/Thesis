@@ -1,0 +1,21 @@
+# inD data and everything derived from it (licence does not allow redistribution)
+data/
+lane_graphs/
+*.csv
+*.feather
+*.pt
+*.pkl
+
+# upstream model repositories (cloned separately, see README)
+script/
+
+# model checkpoints (archived on Zenodo instead)
+*.pth
+checkpoints*/
+*.zip
+
+# system and editor files
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
