@@ -2,6 +2,8 @@
 
 Code for the master's thesis of **Mehran Ommani**, Chair of Data Science, University of Passau (2026).
 
+Archived snapshot (code and trained models): [doi:10.5281/zenodo.23145476](https://doi.org/10.5281/zenodo.23145476)
+
 The thesis compares three graph-based trajectory prediction models on the
 [inD dataset](https://levelxdata.com/ind-dataset/) (drone recordings of four
 unsignalised intersections in Aachen, Germany):
@@ -35,7 +37,7 @@ results/
   training_curves.png            training curves
 ```
 
-The trained model checkpoints are archived separately (see the Zenodo record).
+The trained model checkpoints are archived on [Zenodo](https://doi.org/10.5281/zenodo.23145476).
 
 ## Data
 
