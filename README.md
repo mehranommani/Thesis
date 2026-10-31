@@ -26,6 +26,8 @@ pipeline/
   merge_and_analyze_csvs_5hz.py  step 2: merge tables, label manoeuvres (scenarios)
   sampling_data_V6_5hz.py        step 3: trajectory-level 70/15/15 split, stratified sampling
   baking_pipeline_v28_5hz.py     step 4: build model inputs (windows, features, graphs)
+checkpoints/
+  <model>_obs<k>_pred<k>.pth      trained weights: 3 models x 3 settings
 notebooks/
   model_V29_final.ipynb          step 5: training, evaluation and figures for all three models
 patches/
@@ -37,7 +39,7 @@ results/
   training_curves.png            training curves
 ```
 
-The trained model checkpoints are archived on [Zenodo](https://doi.org/10.5281/zenodo.23145476).
+The trained model checkpoints are in `checkpoints/` and also archived on [Zenodo](https://doi.org/10.5281/zenodo.23145476).
 
 ## Data
 

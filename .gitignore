@@ -9,9 +9,7 @@ lane_graphs/
 # upstream model repositories (cloned separately, see README)
 script/
 
-# model checkpoints (archived on Zenodo instead)
-*.pth
-checkpoints*/
+# archives
 *.zip
 
 # system and editor files
